@@ -1,0 +1,66 @@
+###
+GET http://127.0.0.1:8000/students/
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/students/
+Content-Type: application/json
+
+{
+   "student_name":"Kira",
+    "email":"ki@gmail.com",
+    "department":"Bsc",
+    "age":18
+}
+
+###
+GET http://127.0.0.1:8000/students/2/
+Accept: application/json
+
+###
+PUT http://127.0.0.1:8000/students/2/
+Content-Type: application/json
+
+{
+   "student_name":"melvin",
+    "email":"mel123@gmail.com",
+    "department":"BCA",
+    "age":21
+}
+
+###
+DELETE http://127.0.0.1:8000/students/2/
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/course/
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/course/
+Content-Type: application/json
+
+{
+   "course_name":"BVOC ",
+    "duration":"3 years",
+    "fee":150000
+} 
+
+###
+GET http://127.0.0.1:8000/course/1/
+Accept: application/json
+
+###
+PUT http://127.0.0.1:8000/course/1/
+Content-Type: application/json
+
+{
+   "course_name":"BVOC ",
+    "duration":"3 years",
+    "fee":150000
+} 
+
+###
+DELETE http://127.0.0.1:8000/course/2/
+Accept: application/json
+
